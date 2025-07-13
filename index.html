@@ -1,703 +1,766 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<title>Kumar Sahab</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="Kumar Sahab, krsahab, kumarsahab" />
-	<meta name="google-site-verification" content="xziW7l9QnPN25rSXWTs4F6ndHgjZozwpVw2ZSWD5VYE" />
-	<meta name="msvalidate.01" content="97FE14CA9CE783A345F17AEF85BCFD2F" />
-	<script
-		type="application/x-javascript">addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }</script>
-	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-	<link rel="stylesheet" href="css/swipebox.css">
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet'
-		type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic'
-		rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-			});
-		});
-	</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kumar Sahab | Senior Data Scientist & ML Engineer</title>
+	<meta name="description"
+		content="Kumar Sahab - Senior Data Scientist at Aarki specializing in Artificial Intelligence, and AdTech optimization">
+	<meta name="keywords" content="Data Scientist, Machine Learning, AdTech, Deep Learning, NLP, Kumar Sahab, Aarki">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+		rel="stylesheet">
+
+	<!-- Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/modern-style.css">
 </head>
 
 <body>
-	<div id="home" class="banner">
-		<div class="banner-info">
-			<div class="container">
-				<div class="col-md-4 header-left">
-					<img src="images/me.jpg" alt="" />
-				</div>
-				<div class="col-md-8 header-right">
-					<h2>Hello</h2>
-					<h1>I'm Kumar Sahab</h1>
-					<h6>Senior Engineer at Samsung, Bengaluru</h6>
-					<ul class="address">
-						<!--<li>
-							<ul class="address-text">
-								<li><b>D.O.B</b></li>
-								<li>10-02-1995</li>
-							</ul>
-						</li>-->
-						<li>
-							<ul class="address-text">
-								<li><b>PHONE</b></li>
-								<li>+919024030783</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>ADDRESS</b></li>
-								<li>Bengaluru, Karnataka, India</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>E-MAIL</b></li>
-								<li><a href="mailto:krsahab@outlook.com">krsahab@outlook.com</a></li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>Linkedin</b></li>
-								<li><a href="https://www.linkedin.com/in/krsahab/"
-										target="_blank">https://www.linkedin.com/in/krsahab/</a></li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>Github</b></li>
-								<li><a href="https://github.com/krsahab/"
-										target="_blank">https://github.com/krsahab/</a></li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>Coding</b></li>
-								<li>
-									<p>
-									<a href="https://www.hackerrank.com/krsahab" target="_blank">Hackerrank</a> | 
-									<a href="https://auth.geeksforgeeks.org/user/krsahab/practice/" target="_blank">Geeksforgeeks</a> | 
-									<a href="https://leetcode.com/krsahab/" target="_blank">Leetcode</a>
-									</p>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
+	<!-- Loader -->
+	<div class="loader" id="loader">
+		<div class="loader-content">
+			<div class="loader-spinner"></div>
+			<p>Loading...</p>
 		</div>
 	</div>
-	<div id="navbar">
-		<div class="top-nav wow">
-			<div class="container">
-				<div class="navbar-header logo">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-						data-target="#bs-example-navbar-collapse-1">Menu</button>
+
+	<!-- Navigation -->
+	<nav class="navbar" id="navbar">
+		<div class="nav-container">
+			<div class="nav-logo">
+				<i class="fas fa-brain"></i>
+				<span>Kumar Sahab</span>
+			</div>
+			<ul class="nav-menu" id="nav-menu">
+				<li class="nav-item">
+					<a href="#home" class="nav-link active">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#about" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#experience" class="nav-link">Experience</a>
+				</li>
+				<li class="nav-item">
+					<a href="#skills" class="nav-link">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a href="#education" class="nav-link">Education</a>
+				</li>
+				<!-- <li class="nav-item">
+					<a href="#projects" class="nav-link">Projects</a>
+				</li> -->
+				<li class="nav-item">
+					<a href="#contact" class="nav-link">Contact</a>
+				</li>
+				<li class="nav-item">
+					<button class="theme-toggle" id="theme-toggle">
+						<i class="fas fa-moon"></i>
+					</button>
+				</li>
+			</ul>
+			<div class="hamburger" id="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hero Section -->
+	<section id="home" class="hero">
+		<div class="hero-bg">
+			<canvas id="hero-particles" class="hero-particles"></canvas>
+		</div>
+		<div class="container hero-container">
+			<div class="hero-content">
+				<div class="hero-text">
+					<p class="hero-subtitle">
+						<span>Welcome to my portfolio</span>
+					</p>
+					<h1 class="hero-title">
+						I'm <span class="gradient-text">Kumar Sahab</span><br>
+						Senior Data Scientist
+					</h1>
+					<p class="hero-description">
+						Transforming data into actionable insights at <strong>Aarki</strong>, specializing in
+						real-time bidding optimization, machine learning, and AdTech solutions.
+						Passionate about leveraging AI to drive business impact.
+					</p>
+					<div class="hero-buttons">
+						<a href="images/KumarSahab_Resume.pdf" target="_blank" class="btn btn-primary">
+							<i class="fas fa-download"></i> Download Resume
+						</a>
+						<a href="#contact" class="btn btn-secondary">
+							<i class="fas fa-envelope"></i> Get In Touch
+						</a>
+					</div>
+					<div class="hero-stats">
+						<div class="stat-item">
+							<div class="stat-number" data-count="6">0</div>
+							<div class="stat-label">Years Experience</div>
+						</div>
+						<div class="stat-item">
+							<div class="stat-number" data-count="10">0</div>
+							<div class="stat-label">Projects Completed</div>
+						</div>
+						<div class="stat-item">
+							<div class="stat-number" data-count="4">0</div>
+							<div class="stat-label">Companies</div>
+						</div>
+					</div>
 				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<div class="menu">
-						<ul class="nav navbar">
-							<li><a href="#about" class="scroll">About</a></li>
-							<li><a href="#work" class="scroll">Experience</a></li>
-							<li><a href="#education" class="scroll">Education</a></li>
-							<li><a href="#skills" class="scroll">Skills</a></li>
-							<li><a href="#training" class="scroll">Training</a></li>
-							<li><a href="#projects" class="scroll">My Projects</a></li>
-							<li><a href="#contact" class="scroll">Contact</a></li>
-						</ul>
-						<div class="clearfix"> </div>
+				<div class="hero-visual">
+					<div class="hero-image-wrapper">
+						<img src="images/wayanad.jpg" alt="Kumar Sahab" class="hero-image">
+						<div class="floating-card floating-card-1">
+							<i class="fas fa-brain"></i>
+							<span>ML Expert</span>
+						</div>
+						<div class="floating-card floating-card-2">
+							<i class="fas fa-chart-line"></i>
+							<span>Data Science</span>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<style>
-		.sticky {
-			position: fixed;
-			top: 0;
-			width: 100%;
-			z-index: 1;
-		}
-	</style>
-	<script>
-		window.onscroll = function () { myFunction() };
+	</section>
 
-		var navbar = document.getElementById("navbar");
-		var sticky = navbar.offsetTop;
-
-		function myFunction() {
-			if (window.pageYOffset >= sticky) {
-				navbar.classList.add("sticky")
-			} else {
-				navbar.classList.remove("sticky");
-			}
-		}
-	</script>
-	<!--//top-nav-->
-	<!--about-->
-	<div id="about" class="about">
+	<!-- About Section -->
+	<section id="about" class="about">
 		<div class="container">
-			<h3 class="title">About Me</h3>
-			<div class="col-md-8 about-left">
-				<p>
-					Senior Engineer at Samsung. Ex: MediaTek (Display Driver), Cognizant (Full Stack).<br>
-					MTech in Computer Science and Engineering from NIT, Jaipur.<br>
-					Skilled in Machine Learning, Deep Learning, Natural Language Processing, and Full Stack Development.
-				</p>
-			</div>
-			<div class="col-md-4 about-right">
-				<ul>
-					<h5>Achievements</h5>
-					<li><span class="glyphicon glyphicon-menu-right"></span>Microsoft Student Partner</li>
-					<li><span class="glyphicon glyphicon-menu-right"></span>Niyantra-2015 Finalist</li>
-				</ul>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-8 col-md-offset-2">
+			<h2 class="section-title">About Me</h2>
+			<p class="section-subtitle">Passionate Data Scientist with a mission to leverage AI for real-world impact
+			</p>
+
+			<div class="about-content">
+				<div class="about-image">
+					<img src="images/spiti.jpg" alt="Kumar Sahab">
+					<div class="about-decoration"></div>
+				</div>
+
 				<div class="about-text">
-					<p class="text-center"><a class="btn btn-primary" href="images/KumarSahab.pdf" target="_blank"><i
-								class="fa fa-download"></i>Download Resume</a></p>
-					<style>
-						.btn-primary {
-							color: #fff;
-							background-color: #121d1f;
-							padding: 10px 20px;
-							margin-top: 10px;
-							border-color: #121d1f;
-							border-radius: 0;
-						}
+					<h3>Transforming Data into Strategic Insights</h3>
+					<p>
+						As a Senior Data Scientist at Aarki, I lead the development of sophisticated machine learning
+						models that power real-time bidding systems, optimizing millions of ad impressions daily.
+						My expertise spans the entire ML pipeline - from large-scale data analysis and feature
+						engineering to model deployment and monitoring.
+					</p>
+					<p>
+						With an MTech in Computer Science from NIT Jaipur and over 6 years of industry experience,
+						I've successfully delivered AI solutions across diverse domains including AdTech, security
+						systems, and enterprise applications. My unique background combining Full Stack Development
+						with advanced AI gives me a holistic approach to solving complex technical challenges.
+					</p>
 
-						.btn-primary:hover,
-						.btn-primary:focus,
-						.btn-primary.focus,
-						.btn-primary:active,
-						.btn-primary.active {
-							color: #fff;
-							background-color: #7bc3d1;
-							border-color: #7bc3d1;
-						}
+					<div class="about-features">
+						<div class="feature-item">
+							<div class="feature-icon">
+								<i class="fas fa-rocket"></i>
+							</div>
+							<div class="feature-text">
+								<h4>Real-time Systems</h4>
+								<p>Expert in building ML models for high-frequency trading systems</p>
+							</div>
+						</div>
+						<div class="feature-item">
+							<div class="feature-icon">
+								<i class="fas fa-chart-bar"></i>
+							</div>
+							<div class="feature-text">
+								<h4>Data Analysis</h4>
+								<p>Processing billions of data points to extract actionable insights</p>
+							</div>
+						</div>
+						<div class="feature-item">
+							<div class="feature-icon">
+								<i class="fas fa-brain"></i>
+							</div>
+							<div class="feature-text">
+								<h4>Deep Learning</h4>
+								<p>Implementing state-of-the-art neural networks for complex problems</p>
+							</div>
+						</div>
+						<div class="feature-item">
+							<div class="feature-icon">
+								<i class="fas fa-cogs"></i>
+							</div>
+							<div class="feature-text">
+								<h4>MLOps</h4>
+								<p>End-to-end ML pipeline deployment and monitoring</p>
+							</div>
+						</div>
+					</div>
 
-						.btn-primary i.fa {
-							margin-right: 10px;
-						}
-					</style>
+					<a href="images/KumarSahab_CoverLetter.pdf" target="_blank" class="btn btn-primary">
+						<i class="fas fa-file-alt"></i> Read My Story
+					</a>
 				</div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	<!--//about-->
-	<!--work-experience-->
-	<div id="work" class="work">
-		<div class="container">
-			<h3 class="title">Professional Experience</h3>
-			<div class="work-info">
-				<div class="col-md-6 work-left">
-					<h4>Jul 2022 - Present</h4>
-				</div>
-				<div class="col-md-6 work-right">
-					<h5><span class="glyphicon glyphicon-briefcase"> </span>Samsung</h5>
-					<p>Senior Engineer, Knox AI Labs</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info">
-				<div class="col-md-6 work-right work-right2">
-					<h4>Oct 2021 - May 2022</h4>
-				</div>
-				<div class="col-md-6 work-left work-left2">
-					<h5>MediaTek<span class="glyphicon glyphicon-briefcase"></span></h5>
-					<p>Associate Engineer (Intern), Display Driver</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info">
-				<div class="col-md-6 work-left">
-					<h4>March 2018 - Nov 2020</h4>
-				</div>
-				<div class="col-md-6 work-right">
-					<h5><span class="glyphicon glyphicon-briefcase"> </span>Cognizant Technology Solutions</h5>
-					<p>Full Stack Developer</p>
-				</div>
-				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
-	<!--//work-experience-->
-	<!--education-->
-	<div id="education" class="education">
-		<div class="container">
-			<h3 class="title">Education</h3>
-			<div class="work-info">
-				<div class="col-md-6 work-right work-right2">
-					<h4>Post Graduation - 2022</h4>
-				</div>
-				<div class="col-md-6 work-left work-left2">
-					<h5>Malaviya National Institute of Technology<span class="glyphicon glyphicon-education"></span>
-					</h5>
-					<p>MTech in Computer Science and Engineering from NIT, Jaipur</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info">
-				<div class="col-md-6 work-left">
-					<h4>Graduation - 2017</h4>
-				</div>
-				<div class="col-md-6 work-right">
-					<h5><span class="glyphicon glyphicon-education"> </span>Rajasthan Technical University</h5>
-					<p>B.Tech in Electrical Engineering from Jaipur Engineering College and Research Center, Jaipur</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info">
-				<div class="col-md-6 work-right work-right2">
-					<h4>Higher Secondary Education - 2012</h4>
-				</div>
-				<div class="col-md-6 work-left work-left2">
-					<h5>Central Board of Secondary Education<span class="glyphicon glyphicon-education"></span></h5>
-					<p>Completed Higher Secondary Education from Millia Convent English School in 2012</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info">
-				<div class="col-md-6 work-left">
-					<h4>Secondary Education - 2010</h4>
-				</div>
-				<div class="col-md-6 work-right">
-					<h5><span class="glyphicon glyphicon-education"> </span> Central Board of Secondary Education</h5>
-					<p>Completed Secondary Education from Jawahar Navodaya Vidyalaya in 2010</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!--//education-->
-	<!--skills-->
-	<div id="skills" class="skills">
-		<div class="container">
-			<h3 class="title">Skills</h3>
-			<div class="skills-info">
-				<div class="col-md-4 bar-grids" style="padding: 1px;">
-					<div class="card">
-						<h4 class="card-text">Programming Languages</h4>
-						<h6>C/C++<span> 60% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 60%">
-							</div>
-						</div>
-						<h6>Python<span> 60% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 60%">
-							</div>
-						</div>
-						<h6>C#<span> 60% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 60%">
-							</div>
-						</div>
-						<h6>JavaScript<span> 60% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 60%">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 bar-grids" style="padding: 1px;">
-					<div class="card">
-						<h4 class="card-text">Web Frameworks</h4>
-						<h6>.NET Framework & Core<span> 60% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 60%">
-							</div>
-						</div>
-						<h6>ASP.Net<span> 60% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 60%">
-							</div>
-						</div>
-						<h6>MVC & WebAPI (REST)<span> 70% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 70%">
-							</div>
-						</div>
-						<h6>Entity Framework<span> 50% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 50%">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 bar-grids" style="padding: 1px;">
-					<div class="card">
-						<h4 class="card-text">AI/ML</h4>
-						<h6>Machine Learning<span> 60% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 60%">
-							</div>
-						</div>
-						<h6>Deep Learning<span> 70% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 70%">
-							</div>
-						</div>
-						<h6>Natural Language Processing<span> 70% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 70%">
-							</div>
-						</div>
-						<h6>Image Processing<span> 40% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 40%">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 bar-grids" style="padding: 1px;">
-					<div class="card">
-						<h4 class="card-text">Front End</h4>
-						<h6>HTML/CSS<span> 80% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 80%">
-							</div>
-						</div>
-						<h6>BootStrap<span> 80% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 80%">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 bar-grids" style="padding: 1px;">
-					<div class="card">
-						<h4 class="card-text">Relational Databases</h4>
-						<h6>SQL Server<span> 70% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 70%">
-							</div>
-						</div>
-						<h6>IBM DB2<span> 70% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 70%">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 bar-grids" style="padding: 1px;">
-					<div class="card">
-						<h4 class="card-text">Past Experience</h4>
-						<h6>Robotics & Embedded System<span> 70% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 70%">
-							</div>
-						</div>
-						<h6>IOT<span> 40% </span></h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped active" style="width: 40%">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!--//skills-->
-	<div id="training" class="education">
-		<div class="container">
-			<h3 class="title">Training</h3>
-			<div class="work-info">
-				<div class="col-md-6 work-right work-right2">
-					<h4>Deep Learning - 2019</h4>
-				</div>
-				<div class="col-md-6 work-left work-left2">
-					<h5>One Fourth Labs<span class="glyphicon glyphicon-education"></span></h5>
-					<p>Eight months training course on Deep Learning</p>
-					<a href="https://www.credential.net/2330a0d2-64a4-4ff7-a27d-9f05d20d4fee"
-						target="_blank">Certificate Link</a>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info">
-				<div class="col-md-6 work-left">
-					<h4>Summer Training - 2016</h4>
-				</div>
-				<div class="col-md-6 work-right">
-					<h5><span class="glyphicon glyphicon-education"> </span>NRSC, ISRO, Jodhpur</h5>
-					<p>Two months summer training on IOT</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info">
-				<div class="col-md-6 work-right work-right2">
-					<h4>Robotics - 2013</h4>
-				</div>
-				<div class="col-md-6 work-left work-left2">
-					<h5>Edubotix Innovations<span class="glyphicon glyphicon-education"></span></h5>
-					<p>Two months training course on Robotics and Automation</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="work-info">
-				<div class="col-md-6 work-left">
-					<h4>Enbedded System - 2014</h4>
-				</div>
-				<div class="col-md-6 work-right">
-					<h5><span class="glyphicon glyphicon-education"> </span>Edubotix Innovations</h5>
-					<p>Two months training course on Electronics and Embedded System</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<!--portfolio-->
-	<div id="projects" class="portfolio">
-		<div class="container">
-			<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">Projects</h3>
-			<div class="sap_tabs">
-				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-					<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
-						<li class="resp-tab-item"><span>Web Apps</span></li>
-						<li class="resp-tab-item"><span>AI/ML</span></li>
-						<li class="resp-tab-item"><span>Image Processing</span></li>
-						<li class="resp-tab-item"><span>Robotics</span></li>
-						<li class="resp-tab-item"><span>IOT</span></li>
-					</ul>
-					<div class="clearfix"> </div>
-					<div class="resp-tabs-container">
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids">
-									<h3>Hotel Reservation System</h3>
-									<p>
-										<strong>Description: </strong>
-										A Basic Web App for Hotel reservation, 
-										which includes features like Login/Register, Add/Update/Delete Hotel by Admin, Search/Book hotel, 
-										cancel/Update reservation by user and sending automatic generated Emails using AWS SimpleEmail API<br>
-										<strong>Technologies Used:</strong> C#, .NET Framework, ASP.NET Webform, BootStrap, SQL Server, AWS, HTML, CSS
-									</p>
-									<p><strong>Link: </strong></p><a href="https://github.com/krsahab/HotelReservationSystem">https://github.com/krsahab/HotelReservationSystem</a>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<h3>Race Management System</h3>
-									<p>
-										<strong>Description: </strong>
-										A Web App to manage and display Race information, 
-										which includes features like Add/Update/Delete/View Tracks, Races, Drivers, Participants and Cars and get details of all drivers and Races.<br>										
-										<strong>Technologies Used:</strong> C#, .NET Framework, ASP.NET MVC, ASP.NET WebAPI, Entity Framework, Swagger, AutoMapper, Bootstrap, SQL Server, HTML, CSS
-									</p>
-									<p><strong>Link: </strong></p><a href="https://github.com/krsahab/RaceManagement">https://github.com/krsahab/RaceManagement</a>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<h3>Supervisor Allotment</h3>
-									<p>
-										<strong>Description: </strong>
-										Web Application made for MNIT - CSE Department to allot supervisors automatically.<br>										
-										<strong>Technologies Used:</strong> C#, .NET Framework, ASP.NET MVC, Entity Framework, Bootstrap, SQL Server, HTML, CSS
-									</p>
-									<p><strong>Link: </strong></p><a href="https://github.com/krsahab/SupervisorAllotment">https://github.com/krsahab/SupervisorAllotment</a>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids">
-									<h3>Product Categorization</h3>
-									<p>
-										<strong>Description: </strong>
-										A project on Multi-Class Classification based on text data using 
-										Natural Language Processing and Deep Learning. The complete process includes Data Cleaning, Data Processing, 
-										and applying various Machine Learning methods and tools to categorize the text in appropriate classes.<br>										
-										<strong>Technologies Used:</strong> Natural Language Processing, Deep Learning, K-Nearest Neighbor, Python, Keras, Pandas, Scikit-Learn, NLTK
-									</p>
-									<p><strong>Link: </strong></p><a href="https://github.com/krsahab/MultiClassClassificationNLP">https://github.com/krsahab/MultiClassClassificationNLP</a>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<h3>Plant Disease Detection</h3>
-									<p>
-										<strong>Description: </strong>
-										Plant Disease Detection using CNN and Deep Neural Network<br>										
-										<strong>Technologies Used:</strong> Python, Tensorflow, Keras, Deep Learning, Pandas
-									</p>
-									<p><strong>Link: </strong></p><a href="https://github.com/krsahab/College-Projects/tree/main/Plant%20Disease%20Detection">https://github.com/krsahab/College-Projects/tree/main/Plant%20Disease%20Detection</a>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<h3>House Price Prediction</h3>
-									<p>
-										<strong>Description: </strong>
-										House Price Prediction using K-Nearest Neighbor<br>										
-										<strong>Technologies Used:</strong> Python, Pandas, Numpy, K-Nearest Neighbor
-									</p>
-									<p><strong>Link: </strong></p><a href="https://github.com/krsahab/College-Projects/tree/main/Price%20Prediction%20using%20KNN">https://github.com/krsahab/College-Projects/tree/main/Price%20Prediction%20using%20KNN</a>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids">
-									<h3>Advanced ATM Protection System</h3>
-									<p>
-										<strong>Description: </strong>
-										Project Made for Niyantra-2015 (organised by National Instruments), which provides security against all threats to an ATM machine.<br>										
-										<strong>Technologies Used:</strong> LabVIEW, MyRIO, GPS, GSM, Ultrasonic sensor, Camera, Image Processing
-									</p>
-									<p><strong>Link: </strong></p><a href="https://www.youtube.com/watch?v=oA_ku83eyi8">https://www.youtube.com/watch?v=oA_ku83eyi8</a>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<h3>Gesture Controlled Computer</h3>
-									<p>
-										<strong>Description: </strong>
-										Based on Image Processing using MATLAB, this project provides facility to operate a Laptop/Computer just by gestures.<br>										
-										<strong>Technologies Used:</strong> Image Processing, MATLAB
-									</p>
-									<p><strong>Link: </strong></p><a href="https://www.youtube.com/watch?v=hCSumxL33Ck">https://www.youtube.com/watch?v=hCSumxL33Ck</a>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<h3>Motion Detection</h3>
-									<p>
-										<strong>Description: </strong>
-										Motion detection based on Image Processing using Matlab.<br>										
-										<strong>Technologies Used:</strong> Image Processing, MATLAB
-									</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-4 portfolio-grids">
-									<h3>Brain Controlled Robot</h3>
-									<p>
-										<strong>Description: </strong>
-										A Robot which can be controlled just by brain signals.<br>										
-										<strong>Technologies Used:</strong> Mindwave by Neurosky, Arduino Uno, Bluetooth module
-									</p>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<h3>Automatic Robotic car</h3>
-									<p>
-										<strong>Description: </strong>
-										A robotic car equipped with many sensors and modules to make it fully automatic.<br>										
-										<strong>Technologies Used:</strong> Atmega Microcontroller, GPS, Ultrasonic sensors, IR/TSOP, Speaker, Display
-									</p>
-								</div>
-								<div class="col-md-4 portfolio-grids">
-									<h3>Line follower</h3>
-									<p>
-										<strong>Description: </strong>
-										A Robot which follows a colored line<br>										
-										<strong>Technologies Used:</strong> Atmega Microcontroller, IR/TSOP, Display, PID
-									</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div class="tab-1 resp-tab-content">
-							<div class="tab_img">
-								<div class="col-md-6 portfolio-grids">
-									<h3>Remote Environment Sensing</h3>
-									<p>
-										<strong>Description: </strong>
-										An IOT based project made to work as weather station.<br>
-										<strong>Technologies Used:</strong> Arduino, Esp8266, DHT11, GPS, Bluetooth, IBM & many other IOT & Cloud services
-									</p>
-								</div>
-								<div class="col-md-6 portfolio-grids">
-									<h3>Basic Home Automation</h3>
-									<p>
-										<strong>Description: </strong>
-										Home appliances automation based on IOT and using many sensors and modules.<br>
-										<strong>Technologies Used:</strong> Arduino, PIR sensor, DHT11, Relay, LCD, ESP8266, IOT services
-									</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--ResponsiveTabs-->
-			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-			<script type="text/javascript">
-				$(document).ready(function () {
-					$('#horizontalTab').easyResponsiveTabs({
-						type: 'default', //Types: default, vertical, accordion           
-						width: 'auto', //auto or any width like 600px
-						fit: true   // 100% fit in a container
-					});
-				});
-			</script>
-			<!--//ResponsiveTabs-->
-			<!-- swipe box js -->
-			<script src="js/jquery.swipebox.min.js"></script>
-			<script type="text/javascript">
-				jQuery(function ($) {
-					$(".swipebox").swipebox();
-				});
-			</script>
-			<!-- //swipe box js -->
-		</div>
-	</div>
-	<!--//portfolio-->
-	<!--contact -->
-	<div class="welcome contact" id="contact">
-		<div class="container">
-			<h3 class="title">Connect With Me</h3>
-			<div class="footer-right">
-				<center>
-					<a href="https://www.facebook.com/sahab001" target="_blank"><i class="fa fa-facebook"></i></a>
-					<a href="https://www.youtube.com/user/Kumarsahab5278" target="_blank"><i
-							class="fa fa-youtube"></i></a>
-					<a href="https://www.linkedin.com/in/krsahab/" target="_blank"><i class="fa fa-linkedin"></i></a>
-					<a href="https://github.com/krsahab" target="_blank"><i class="fa fa-github"></i></a>
-			</div>
-			<style>
-				.footer-right a {
-					display: inline-block;
-					width: 50px;
-					height: 50px;
-					background-color: #006bad;
-					border-radius: 2px;
+	</section>
 
-					font-size: 35px;
-					color: #ffffff;
-					text-align: center;
-					line-height: 50px;
-					margin-left: 5px;
-				}
-			</style>
+	<!-- Experience Section -->
+	<section id="experience" class="experience">
+		<div class="container">
+			<h2 class="section-title">Professional Journey</h2>
+			<p class="section-subtitle">Building AI solutions that drive business impact</p>
+
+			<div class="timeline">
+				<div class="timeline-item">
+					<div class="timeline-marker"></div>
+					<div class="timeline-content">
+						<div class="timeline-header">
+							<h3>Senior Data Scientist</h3>
+							<span class="company">Aarki</span>
+							<span class="duration"><i class="far fa-calendar"></i> Feb 2025 - Present</span>
+						</div>
+						<p class="timeline-description">
+							Leading the development of cutting-edge ML models for real-time bidding optimization
+							in a high-scale AdTech environment. Managing the complete ML lifecycle from data
+							analysis to production deployment, processing billions of bid requests daily.
+						</p>
+						<!-- <ul class="timeline-achievements">
+                            <li>Optimized bidding algorithms resulting in 25% improvement in ROI</li>
+                            <li>Built scalable ML pipelines handling 5M+ QPS</li>
+                            <li>Implemented A/B testing framework for model evaluation</li>
+                        </ul> -->
+						<div class="timeline-tech">
+							<span class="tech-tag">Python</span>
+							<span class="tech-tag">Deep Learning</span>
+							<span class="tech-tag">PySpark</span>
+							<span class="tech-tag">SQL</span>
+							<span class="tech-tag">Demand Side Platform (DSP)</span>
+							<span class="tech-tag">Advertisement</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-item">
+					<div class="timeline-marker"></div>
+					<div class="timeline-content">
+						<div class="timeline-header">
+							<h3>Senior Engineer - AI/ML</h3>
+							<span class="company">Samsung Research Institute, Bangalore</span>
+							<span class="duration"><i class="far fa-calendar"></i> Jul 2022 - Jan 2025</span>
+						</div>
+						<p class="timeline-description">
+							Spearheaded AI initiatives for Samsung's security platform, developing sophisticated
+							ML models for threat detection and anomaly identification in mobile security systems.
+							Also contributed to the development of features for Samsung Bixby AI Assistant.
+						</p>
+						<!--<ul class="timeline-achievements">
+							<li>Developed deep learning models achieving 95% accuracy in threat detection</li>
+							<li>Reduced false positive rate by 40% through advanced NLP techniques</li>
+							<li>Led a team of 3 engineers in implementing computer vision solutions</li>
+						</ul>-->
+						<div class="timeline-tech">
+							<span class="tech-tag">Python</span>
+							<span class="tech-tag">Deep Learning</span>
+							<span class="tech-tag">Computer Vision</span>
+							<span class="tech-tag">NLP</span>
+							<span class="tech-tag">Java, Kotlin</span>
+							<span class="tech-tag">Android</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-item">
+					<div class="timeline-marker"></div>
+					<div class="timeline-content">
+						<div class="timeline-header">
+							<h3>Associate Engineer (Intern)</h3>
+							<span class="company">MediaTek</span>
+							<span class="duration"><i class="far fa-calendar"></i> Oct 2021 - May 2022</span>
+						</div>
+						<p class="timeline-description">
+							Contributed to display driver optimization and embedded systems development,
+							gaining valuable experience in low-level programming and hardware integration.
+						</p>
+						<div class="timeline-tech">
+							<span class="tech-tag">C/C++</span>
+							<span class="tech-tag">Embedded Systems</span>
+							<span class="tech-tag">Linux Kernel</span>
+							<span class="tech-tag">Display Drivers</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-item">
+					<div class="timeline-marker"></div>
+					<div class="timeline-content">
+						<div class="timeline-header">
+							<h3>Full Stack Developer</h3>
+							<span class="company">Cognizant</span>
+							<span class="duration"><i class="far fa-calendar"></i> Mar 2018 - Nov 2020</span>
+						</div>
+						<p class="timeline-description">
+							Built enterprise-grade web applications serving millions of users, focusing on
+							scalable architecture and robust backend systems.
+						</p>
+						<div class="timeline-tech">
+							<span class="tech-tag">.NET</span>
+							<span class="tech-tag">ASP.NET</span>
+							<span class="tech-tag">C#</span>
+							<span class="tech-tag">SQL Server</span>
+							<span class="tech-tag">HTML</span>
+							<span class="tech-tag">CSS</span>
+							<span class="tech-tag">JavaScript</span>
+							<span class="tech-tag">Bootstrap</span>
+							<span class="tech-tag">REST APIs</span>
+							<span class="tech-tag">Git</span>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-	<!--//contact -->
-	<!--smooth-scrolling-of-move-up-->
-	<script type="text/javascript">
-		$(document).ready(function () {
+	</section>
 
-			var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-			};
+	<!-- Skills Section -->
+	<section id="skills" class="skills">
+		<div class="container">
+			<h2 class="section-title">Technical Arsenal</h2>
+			<p class="section-subtitle">Comprehensive skill set spanning AI/ML, data engineering, and software
+				development</p>
 
-			$().UItoTop({ easingType: 'easeOutQuart' });
+			<div class="skills-container">
+				<div class="skill-category">
+					<h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
+					<div class="skill-items">
+						<span class="skill-name">Deep Learning</span>
+						<span class="skill-name">Machine Learning</span>
+						<span class="skill-name">Natural Language Processing</span>
+						<span class="skill-name">Computer Vision</span>
+						<span class="skill-name">Generative AI</span>
+					</div>
+				</div>
 
-		});
-	</script>
-	<script src="js/bootstrap.js"></script>
+				<div class="skill-category">
+					<h3><i class="fas fa-code"></i> Programming & Development</h3>
+					<div class="skill-items">
+						<span class="skill-name">Python</span>
+						<span class="skill-name">C</span>
+						<span class="skill-name">C++</span>
+						<span class="skill-name">SQL</span>
+						<span class="skill-name">Java</span>
+						<span class="skill-name">C#</span>
+						<span class="skill-name">Kotlin</span>
+						<span class="skill-name">HTML</span>
+						<span class="skill-name">CSS</span>
+						<span class="skill-name">JavaScript</span>
+						<span class="skill-name">Bootstrap</span>
+					</div>
+				</div>
+
+				<div class="skill-category">
+					<h3><i class="fas fa-tools"></i> Frameworks & Libraries</h3>
+					<div class="skill-items">
+						<span class="skill-name">TensorFlow</span>
+						<span class="skill-name">PyTorch</span>
+						<span class="skill-name">Scikit-learn</span>
+						<span class="skill-name">Keras</span>
+						<span class="skill-name">Pandas</span>
+						<span class="skill-name">PySpark</span>
+						<span class="skill-name">NLTK</span>
+						<span class="skill-name">OpenCV</span>
+						<span class="skill-name">Hugging Face</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Education Section -->
+	<section id="education" class="education">
+		<div class="container">
+			<h2 class="section-title">Education</h2>
+			<div class="education-grid">
+				<div class="education-card">
+					<div class="education-icon">
+						<i class="fas fa-graduation-cap"></i>
+					</div>
+					<div class="education-content">
+						<h3>M.Tech in Computer Science and Engineering</h3>
+						<p class="institution">Malaviya National Institute of Technology, Jaipur</p>
+						<p class="year">2020 - 2022</p>
+						<p class="description">
+							Specialized in machine learning, artificial intelligence, and software engineering.
+							Completed thesis on advanced NLP techniques and deep learning applications.
+						</p>
+						<div class="coursework">
+							<h4>Key Coursework:</h4>
+							<div class="course-tags">
+								<span class="course-tag">Machine Learning</span>
+								<span class="course-tag">Deep Learning</span>
+								<span class="course-tag">Data Mining</span>
+								<span class="course-tag">Data Structures and Algorithms</span>
+								<span class="course-tag">Image Processing</span>
+								<span class="course-tag">Database</span>
+								<span class="course-tag">Security Engineering</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="education-card">
+					<div class="education-icon">
+						<i class="fas fa-university"></i>
+					</div>
+					<div class="education-content">
+						<h3>B.Tech in Electrical Engineering</h3>
+						<p class="institution">Rajasthan Technical University</p>
+						<p class="year">2013 - 2017</p>
+						<p class="description">
+							Gained a solid grounding in electrical engineering, emphasizing microprocessors, digital
+							electronics, and object-oriented programming. Coursework included C, C++, databases, and
+							hands-on projects in embedded systems, Robotics, IoT, and Image Processing.
+						</p>
+						<div class="coursework">
+							<h4>Relevant Coursework:</h4>
+							<div class="course-tags">
+								<span class="course-tag">Database</span>
+								<span class="course-tag">C</span>
+								<span class="course-tag">C++</span>
+								<span class="course-tag">Object Oriented Programming</span>
+								<span class="course-tag">Microprocessors</span>
+								<span class="course-tag">Digital Electronics</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="certifications">
+				<h3>Certifications & Training</h3>
+				<div class="cert-grid">
+					<div class="cert-card">
+						<div class="cert-icon">
+							<i class="fas fa-brain"></i>
+						</div>
+						<div class="cert-content">
+							<h4>Deep Learning</h4>
+							<p class="cert-provider">One Fourth Labs</p>
+							<p class="cert-year">2019</p>
+							<p class="cert-description">
+								An in-depth, 6-month course covering the full spectrum of Deep Learning, starting from
+								foundational concepts like perceptrons and artificial neurons to advanced topics such as
+								object detection and image segmentation. The curriculum included detailed study of
+								neural networks, CNNs, RNNs, LSTMs, and hands-on projects in computer vision and natural
+								language processing.
+							</p>
+							<p class="cert-link">
+								<a href="https://www.credential.net/2330a0d2-64a4-4ff7-a27d-9f05d20d4fee"
+									target="_blank" rel="noopener noreferrer">
+									View Certificate
+								</a>
+							</p>
+							<div class="cert-topics">
+								<span class="cert-topic">Neural Networks</span>
+								<span class="cert-topic">CNN</span>
+								<span class="cert-topic">RNN</span>
+								<span class="cert-topic">LSTM</span>
+								<span class="cert-topic">GRU</span>
+								<span class="cert-topic">Computer Vision</span>
+								<span class="cert-topic">NLP</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="cert-card">
+						<div class="cert-icon">
+							<i class="fas fa-satellite"></i>
+						</div>
+						<div class="cert-content">
+							<h4>IoT Training</h4>
+							<p class="cert-provider">NRSC, ISRO, Jodhpur</p>
+							<p class="cert-year">2016</p>
+							<p class="cert-description">
+								Intensive training in Internet of Things technologies, sensor networks, and embedded
+								systems. Developed a remote sensing application to update weather data of various
+								locations to map.
+							</p>
+							<div class="cert-topics">
+								<span class="cert-topic">IoT</span>
+								<span class="cert-topic">Embedded Systems</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="cert-card">
+						<div class="cert-icon">
+							<i class="fas fa-robot"></i>
+						</div>
+						<div class="cert-content">
+							<h4>Robotics & Embedded Systems</h4>
+							<p class="cert-provider">Edubotix Innovations</p>
+							<p class="cert-year">2013</p>
+							<p class="cert-description">
+								Comprehensive training in robotics, automation, and Embedded Systems.
+								Practical experience with microcontroller programming, sensor integration, and robotic
+								systems design.
+							</p>
+							<div class="cert-topics">
+								<span class="cert-topic">Robotics</span>
+								<span class="cert-topic">Automation</span>
+								<span class="cert-topic">Microcontrollers</span>
+								<span class="cert-topic">Control Systems</span>
+								<span class="cert-topic">Sensor Integration</span>
+								<span class="cert-topic">System Design</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Projects Section
+	<section id="projects" class="projects">
+		<div class="container">
+			<h2 class="section-title">Featured Projects</h2>
+			<div class="project-filters">
+				<button class="filter-btn active" data-filter="all">All</button>
+				<button class="filter-btn" data-filter="ml">Machine Learning</button>
+				<button class="filter-btn" data-filter="nlp">NLP</button>
+				<button class="filter-btn" data-filter="cv">Computer Vision</button>
+				<button class="filter-btn" data-filter="web">Web Apps</button>
+			</div>
+
+			<div class="projects-grid">
+				<div class="project-card" data-category="nlp ml">
+					<div class="project-image">
+						<img src="images/product.png" alt="Product Categorization">
+					</div>
+					<div class="project-content">
+						<h3>Product Categorization</h3>
+						<p>Multi-class classification system using NLP and deep learning for automatic product
+							categorization based on text descriptions.</p>
+						<div class="project-tech">
+							<span>Python</span>
+							<span>NLP</span>
+							<span>Deep Learning</span>
+							<span>Keras</span>
+						</div>
+						<div class="project-links">
+							<a href="https://github.com/krsahab/MultiClassClassificationNLP" target="_blank">
+								<i class="fab fa-github"></i> View Code
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="project-card" data-category="cv ml">
+					<div class="project-image">
+						<img src="images/plant.jpg" alt="Plant Disease Detection">
+					</div>
+					<div class="project-content">
+						<h3>Plant Disease Detection</h3>
+						<p>CNN-based system for automatic detection and classification of plant diseases from images.
+						</p>
+						<div class="project-tech">
+							<span>Python</span>
+							<span>TensorFlow</span>
+							<span>CNN</span>
+							<span>Computer Vision</span>
+						</div>
+						<div class="project-links">
+							<a href="https://github.com/krsahab/College-Projects/tree/main/Plant%20Disease%20Detection"
+								target="_blank">
+								<i class="fab fa-github"></i> View Code
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="project-card" data-category="ml">
+					<div class="project-image">
+						<img src="images/house.jpg" alt="House Price Prediction">
+					</div>
+					<div class="project-content">
+						<h3>House Price Prediction</h3>
+						<p>Machine learning model using K-Nearest Neighbor algorithm for real estate price prediction.
+						</p>
+						<div class="project-tech">
+							<span>Python</span>
+							<span>KNN</span>
+							<span>Pandas</span>
+							<span>NumPy</span>
+						</div>
+						<div class="project-links">
+							<a href="https://github.com/krsahab/College-Projects/tree/main/Price%20Prediction%20using%20KNN"
+								target="_blank">
+								<i class="fab fa-github"></i> View Code
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="project-card" data-category="web">
+					<div class="project-image">
+						<img src="images/Hotel.jpg" alt="Hotel Reservation System">
+					</div>
+					<div class="project-content">
+						<h3>Hotel Reservation System</h3>
+						<p>Full-stack web application for hotel booking with admin panel and automated email
+							notifications.</p>
+						<div class="project-tech">
+							<span>C#</span>
+							<span>ASP.NET</span>
+							<span>SQL Server</span>
+							<span>AWS</span>
+						</div>
+						<div class="project-links">
+							<a href="https://github.com/krsahab/HotelReservationSystem" target="_blank">
+								<i class="fab fa-github"></i> View Code
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="project-card" data-category="web">
+					<div class="project-image">
+						<img src="images/race.jpg" alt="Race Management System">
+					</div>
+					<div class="project-content">
+						<h3>Race Management System</h3>
+						<p>Comprehensive web application for managing racing events, drivers, and participants with REST
+							API.</p>
+						<div class="project-tech">
+							<span>C#</span>
+							<span>ASP.NET MVC</span>
+							<span>WebAPI</span>
+							<span>Entity Framework</span>
+						</div>
+						<div class="project-links">
+							<a href="https://github.com/krsahab/RaceManagement" target="_blank">
+								<i class="fab fa-github"></i> View Code
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="project-card" data-category="cv">
+					<div class="project-image">
+						<img src="images/arc.png" alt="Advanced ATM Protection">
+					</div>
+					<div class="project-content">
+						<h3>Advanced ATM Protection System</h3>
+						<p>Security system for ATM machines using image processing, sensors, and IoT technologies.</p>
+						<div class="project-tech">
+							<span>LabVIEW</span>
+							<span>Image Processing</span>
+							<span>IoT</span>
+							<span>Embedded Systems</span>
+						</div>
+						<div class="project-links">
+							<a href="https://www.youtube.com/watch?v=oA_ku83eyi8" target="_blank">
+								<i class="fab fa-youtube"></i> Watch Demo
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+	<!-- Contact Section -->
+	<section id="contact" class="contact">
+		<div class="container">
+			<h2 class="section-title">Get In Touch</h2>
+			<div class="contact-content">
+				<div class="contact-info">
+					<h3>Let's Connect</h3>
+					<p>I'm always interested in new opportunities and collaborations in the field of AI/ML.
+						Feel free to reach out if you'd like to discuss potential projects or opportunities.</p>
+
+					<div class="contact-details">
+						<div class="contact-item">
+							<i class="fas fa-envelope"></i>
+							<div>
+								<h4>Email</h4>
+								<a href="mailto:krsahab@outlook.com">krsahab@outlook.com</a>
+							</div>
+						</div>
+
+						<div class="contact-item">
+							<i class="fas fa-phone"></i>
+							<div>
+								<h4>Phone</h4>
+								<a href="tel:+919024030783">+91 9024030783</a>
+							</div>
+						</div>
+
+						<!--<div class="contact-item">
+							<i class="fas fa-map-marker-alt"></i>
+							<div>
+								<h4>Location</h4>
+								<p>Bengaluru, Karnataka, India</p>
+							</div>
+						</div>-->
+					</div>
+				</div>
+
+				<div class="social-links">
+					<h3>Follow Me</h3>
+					<div class="social-grid">
+						<a href="https://www.linkedin.com/in/krsahab/" target="_blank" class="social-link linkedin">
+							<i class="fab fa-linkedin"></i>
+							<span>LinkedIn</span>
+						</a>
+						<a href="https://github.com/krsahab" target="_blank" class="social-link github">
+							<i class="fab fa-github"></i>
+							<span>GitHub</span>
+						</a>
+						<a href="https://www.hackerrank.com/krsahab" target="_blank" class="social-link hackerrank">
+							<i class="fas fa-code"></i>
+							<span>HackerRank</span>
+						</a>
+						<a href="https://leetcode.com/krsahab/" target="_blank" class="social-link leetcode">
+							<i class="fas fa-laptop-code"></i>
+							<span>LeetCode</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<p>&copy; 2025 Kumar Sahab. All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Back to Top Button -->
+	<button id="back-to-top" class="back-to-top">
+		<i class="fas fa-chevron-up"></i>
+	</button>
+
+	<!-- Back to Top Button -->
+	<button id="back-to-top" class="back-to-top">
+		<i class="fas fa-chevron-up"></i>
+	</button>
+
+	<!-- JavaScript -->
+	<script src="js/modern-script.js"></script>
 </body>
 
 </html>
